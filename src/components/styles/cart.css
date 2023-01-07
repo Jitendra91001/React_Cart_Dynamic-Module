@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.outer{
+    min-height: 300px;
+    width:600px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 3px black inset;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: yellow;
+    margin:0px auto;
+}
+.header{
+   height:50px;
+   width: 100%;
+   border-bottom: 2px solid black;
+   text-align: center;
+   font-size: 30px;
+   line-height: 50px;
+
+}
+.footer
+{
+    height: 250px;
+    width:100%;
+    border: 2px solid black;
+}
+.left
+{
+    height: 250px;
+    border-left: 2px solid black;
+    box-sizing: border-box;
+    width: 30%;
+    float: left;
+}
+.right
+{
+    height: 250px;
+    width:70%;
+    font-size: 22px;
+    float: left;
+    text-align: left;
+}
